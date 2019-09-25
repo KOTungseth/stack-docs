@@ -2,16 +2,29 @@
 == Upgrading the Elastic Stack
 
 When upgrading to a new version of {es}, you need to upgrade
+<<<<<<< HEAD
 each of the products in your Elastic Stack. Beats and Logstash 6.7 are
+=======
+each of the products in your Elastic Stack. Beats and Logstash 7.n are
+>>>>>>> refs/remotes/KOTungseth/docs/reporting-link
 compatible with {es} {version} to give you flexibility in scheduling
 the upgrade.
 
 {es} supports rolling upgrades between minor versions, from {es} 5.6 to 6.8,
+<<<<<<< HEAD
 and from 6.8 to {version}.
 
 IMPORTANT: 5.x indices are not compatible with {version}. You must
 remove or reindex them to upgrade to {version}. The default Beats and
 Logstash mapping templates also need to be updated to work with {version}.
+=======
+from 6.8 to 7.x, and from 7.n to {version}.
+
+IMPORTANT: 6.x and older indices are not compatible with {version}. You must
+remove or reindex them on your 7.x cluster before upgrading to {version}. The internal
+Kibana and {xpack} indices and the default Beats and Logstash mapping templates
+also need to be updated to work with {version}.
+>>>>>>> refs/remotes/KOTungseth/docs/reporting-link
 
 [discrete]
 === Preparing to upgrade
@@ -66,7 +79,11 @@ on the cluster during the upgrade process. For more information, see
 .. Kibana: {kibana-ref}/upgrade.html[upgrade instructions]
 .. Logstash: {logstash-ref}/upgrading-logstash.html[upgrade instructions]
 .. Beats: {beats-ref}/upgrading.html[upgrade instructions]
+<<<<<<< HEAD
 .. APM Server: {apm-server-ref-70}/upgrading.html[upgrade instructions]
+=======
+.. APM Server: {apm-server-ref}/upgrading.html[upgrade instructions]
+>>>>>>> refs/remotes/KOTungseth/docs/reporting-link
 
 NOTE: Logstash 6.8 and Beats 6.8 are compatible with all 7.x versions of
 {es}. This provides flexibility in when you schedule the upgrades

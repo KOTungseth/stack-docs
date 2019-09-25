@@ -106,9 +106,14 @@ corner of the map.
 === Timelines
 
 Use timelines as your workspace for alert investigations or threat hunting.
+<<<<<<< HEAD
 Data from multiple indices can be added to a timeline, which enables
 investigating complex threats, such as lateral movement of malware across hosts
 in your network.
+=======
+Data from multiple indices can be added to a timeline, which enables investigating
+complex threats, such as lateral movement of malware across hosts in your network.
+>>>>>>> refs/remotes/KOTungseth/docs/reporting-link
 
 You can drag objects of interest into the Timeline Event Viewer to create
 exactly the query filter you need to get to the bottom of an alert. You can drag
@@ -148,7 +153,11 @@ whether your placement is on target to create an `AND` or `OR` filters.
 
 [float]
 [[pivot]]
+<<<<<<< HEAD
 ==== Pivot on a data point
+=======
+==== Pivot on a data point 
+>>>>>>> refs/remotes/KOTungseth/docs/reporting-link
 
 Click a filter to access additional operations such as exclude, temporarily
 disable, or delete items from the query. For example, you can change an included
@@ -351,4 +360,8 @@ using the following *Url template*:
 [source,url]
 ----------------------------------
   <KibanaURL>/app/siem#/network/ip/{{value}}
+<<<<<<< HEAD
 ----------------------------------
+=======
+----------------------------------
+>>>>>>> refs/remotes/KOTungseth/docs/reporting-link

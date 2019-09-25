@@ -4,18 +4,26 @@
 Each release brings new features and product improvements. This section
 highlights notable new features and enhancements in {version}.
 
+<<<<<<< HEAD
 //** <<apm-highlights,APM>>
+=======
+** <<apm-highlights,APM>>
+>>>>>>> refs/remotes/KOTungseth/docs/reporting-link
 ** <<beats-highlights,Beats>>
 ** <<elasticsearch-highlights,{es}>>
 ** <<kibana-higlights,{kib}>>
 
+<<<<<<< HEAD
 ////
+=======
+>>>>>>> refs/remotes/KOTungseth/docs/reporting-link
 [[apm-highlights]]
 === APM highlights
 ++++
 <titleabbrev>APM</titleabbrev>
 ++++
 
+<<<<<<< HEAD
 coming[7.5.0]
 
 This list summarizes the most important enhancements in APM.
@@ -24,6 +32,16 @@ For the complete list, go to
 
 include::{apm-repo-dir}/apm-release-notes.asciidoc[tag=notable-v7-highlights]
 ////
+=======
+coming[8.0.0]
+
+This list summarizes the most important enhancements in APM.
+For the complete list, go to
+{apm-get-started-ref}/apm-release-notes.html[APM release highlights].
+
+include::{apm-repo-dir}/apm-release-notes.asciidoc[tag=notable-v8-highlights]
+
+>>>>>>> refs/remotes/KOTungseth/docs/reporting-link
 
 [[beats-highlights]]
 === Beats highlights
@@ -31,12 +49,20 @@ include::{apm-repo-dir}/apm-release-notes.asciidoc[tag=notable-v7-highlights]
 <titleabbrev>Beats</titleabbrev>
 ++++
 
+<<<<<<< HEAD
 coming[7.5.0]
+=======
+coming[8.0.0]
+>>>>>>> refs/remotes/KOTungseth/docs/reporting-link
 
 This list summarizes the most important enhancements in Beats.
 For the complete list, go to {beats-ref}/release-highlights.html[Beats release highlights].
 
+<<<<<<< HEAD
 //include::{beats-repo-dir}/highlights-7.3.0.asciidoc[tag=notable-highlights]
+=======
+//include::{beats-repo-dir}/highlights-8.0.0.asciidoc[tag=notable-highlights]
+>>>>>>> refs/remotes/KOTungseth/docs/reporting-link
 
 [[elasticsearch-highlights]]
 === {es} highlights
@@ -45,11 +71,16 @@ For the complete list, go to {beats-ref}/release-highlights.html[Beats release h
 <titleabbrev>{es}</titleabbrev>
 ++++
 
+<<<<<<< HEAD
 coming[7.5.0]
+=======
+coming[8.0.0]
+>>>>>>> refs/remotes/KOTungseth/docs/reporting-link
 
 This list summarizes the most important enhancements in {es} {version}.
 For the complete list, go to {ref}/release-highlights.html[{es} release highlights].
 
+<<<<<<< HEAD
 ////
 :leveloffset: +1
 
@@ -57,6 +88,13 @@ include::{es-repo-dir}/reference/release-notes/highlights-7.3.0.asciidoc[tag=not
 
 :leveloffset: -1
 ////
+=======
+:leveloffset: +1
+
+include::{es-repo-dir}/reference/release-notes/highlights-8.0.0.asciidoc[tag=notable-highlights]
+
+:leveloffset: -1
+>>>>>>> refs/remotes/KOTungseth/docs/reporting-link
 
 [[kibana-higlights]]
 === {kib} highlights
@@ -65,6 +103,7 @@ include::{es-repo-dir}/reference/release-notes/highlights-7.3.0.asciidoc[tag=not
 <titleabbrev>{kib}</titleabbrev>
 ++++
 
+<<<<<<< HEAD
 coming[7.5.0]
 
 This list summarizes the most important enhancements in {kib} {version}.
@@ -76,3 +115,14 @@ include::{kib-repo-dir}/release-notes/highlights-7.3.0.asciidoc[tag=notable-high
 
 :leveloffset: -1
 ////
+=======
+coming[8.0.0]
+
+This list summarizes the most important enhancements in {kib} {version}.
+
+:leveloffset: +1
+
+include::{kib-repo-dir}/release-notes/highlights-8.0.0.asciidoc[tag=notable-highlights]
+
+:leveloffset: -1
+>>>>>>> refs/remotes/KOTungseth/docs/reporting-link

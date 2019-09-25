@@ -74,7 +74,10 @@ See {ref}/ccr-overview.html[{ccr-cap} overview].
 
 [role="exclude",id="ccr-requirements"]
 === Requirements for leader indices
+<<<<<<< HEAD
 [[ccr-overview-beats]]
+=======
+>>>>>>> refs/remotes/KOTungseth/docs/reporting-link
 
 This page has moved. 
 See {ref}/ccr-requirements.html[Requirements for leader indices].

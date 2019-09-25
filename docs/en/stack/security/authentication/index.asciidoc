@@ -2,6 +2,7 @@
 include::overview.asciidoc[]
 include::built-in-users.asciidoc[]
 include::internal-users.asciidoc[]
+include::token-authentication-services.asciidoc[]
 include::realms.asciidoc[]
 include::realm-chains.asciidoc[]
 include::active-directory-realm.asciidoc[]
@@ -20,4 +21,8 @@ include::{xes-repo-dir}/security/authentication/user-cache.asciidoc[]
 
 include::{xes-repo-dir}/security/authentication/saml-guide.asciidoc[]
 
+<<<<<<< HEAD
 include::{xes-repo-dir}/security/authentication/oidc-guide.asciidoc[]
+=======
+include::{xes-repo-dir}/security/authentication/oidc-guide.asciidoc[]
+>>>>>>> refs/remotes/KOTungseth/docs/reporting-link
